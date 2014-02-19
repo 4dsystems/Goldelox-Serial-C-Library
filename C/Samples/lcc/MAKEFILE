@@ -1,11 +1,11 @@
-# Wedit Makefile for project BigDemo
-SRCDIR="c:\4droot\4d-workshop4\installer\common files\goldelox serial\c\samples"
-CFLAGS=-I"c:\lcc\include" -I"..\include"  -g2 
+# Wedit Makefile for project bigdemo
+SRCDIR="c:\users\public\documents\4d labs\goldelox serial\c\samples"
+CFLAGS=-I"c:\users\public\documents\4d labs\goldelox serial\c\include" -I"c:\lcc\include" -I"..\include"  -g2 
 CC=$(LCCROOT)\bin\lcc.exe
 LINKER=$(LCCROOT)\bin\lcclnk.exe
 OBJS=\
-	bigdemo.obj \
 	"c:\users\public\documents\4d labs\goldelox serial\c\lib\lcc\goldelox_serial_4dlibrary.obj" \
+	bigdemo.obj
 
 LIBS=gc.lib lfc.lib weditres.lib
 EXE="bigdemo.exe"

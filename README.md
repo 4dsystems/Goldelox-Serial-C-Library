@@ -3,7 +3,7 @@
 Goldelox-Serial-C-Library
 =============================
 
-C Library for 4D Systems Serial Environement for Goldelox based modules
+C Library for 4D Systems Serial Environment for Goldelox based modules
 
 ## Information
 

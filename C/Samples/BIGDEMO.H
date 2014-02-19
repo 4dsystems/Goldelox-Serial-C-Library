@@ -4,6 +4,10 @@ int  baudrates[maxrates] = {   110,    300,    600,   1200,   2400,   4800,   96
                              14400,  19200,  31250,  38400,  56000,  57600, 115200,
 						    128000, 256000, 300000, 375000, 500000, 600000} ;
 
+int  baudratesG[maxrates] = {BAUD_110, BAUD_300, BAUD_600, BAUD_1200, BAUD_2400, BAUD_4800, BAUD_9600, BAUD_14400, BAUD_19200, BAUD_31250, BAUD_38400, BAUD_56000, BAUD_57600,
+                             BAUD_115200, BAUD_128000, BAUD_256000, BAUD_300000, BAUD_375000, BAUD_500000, BAUD_600000} ;
+
+
 typedef struct
 {
 	int recnum ;
